@@ -1,4 +1,4 @@
-- Pour tester l'api il faudra clone le repository en local et lancer le serveur en utilisant 'nodemon'
+- Pour tester l'api il faudra clone le repository en local et lancer la commande "npm install" puis run le serveur en utilisant 'nodemon' ou bien 'node ./bin/www'.
 - Il faudra ensuite utiliser postman pour envoyer les parametres (nom, adresse ou siren) à l'url 'localhost:3000/search'.
 - En mettant le nom de l'entreprise et son adresse, l'api effectue un web scarping sur le site pagesjaunes.fr afin de tenter de recuperer le numéro de lentreprise si elle y figure.
 - Dans le cas échenat il faudra utiliser le numéro de siren. Cette fois si le scraping sera fait sur le site Kompass.com. 
